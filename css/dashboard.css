@@ -1,0 +1,55 @@
+body {
+  overflow-x: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(/images/dashboard_bg.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.dashboard-section {
+  background-color: rgba(255, 255, 255, 0.444);
+  backdrop-filter: blur(5px);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.foods {
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.3s;
+  border: 1px solid grey;
+}
+
+.foods:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.edit-card {
+  width: 500px;
+}
+
+@media (max-width: 576px) {
+  .edit-card {
+    width: 250px;
+  }
+}
+
+.home-menu {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.comments {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.327);
+  transition: 0.3s;
+}
+
+.comments:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}

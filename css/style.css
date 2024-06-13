@@ -1,0 +1,21 @@
+body {
+  overflow-x: hidden;
+  background-image: url(/images/index_body.png);
+  background-size: cover;
+  background-repeat: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100vh;
+}
+
+.head h1 {
+  font-size: 100px;
+  color: #dd6213;
+}
+
+.head {
+  background-color: white;
+}
+
+.index-body {
+  height: 90vh;
+}
